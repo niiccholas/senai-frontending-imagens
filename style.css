@@ -1,0 +1,32 @@
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   background-image: url(./img/galaxia.jpg);
+   background-size: cover;
+   background-position: 50%;
+   background-repeat: no-repeat;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   transition: background-image 0.5s ease-in;
+}
+
+
+
+#input {
+   padding: 8px 12px;
+   font-size: 24px;
+   outline: none;
+}
+
+#random {
+   padding: 8px 12px;
+   font-size: 24px;
+   cursor: pointer;
+}
